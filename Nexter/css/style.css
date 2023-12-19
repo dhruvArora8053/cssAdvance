@@ -1,0 +1,77 @@
+/* Color Variables */
+:root {
+  --color-primary: #c69963;
+  --color-primary-dark: #b28451;
+  --color-secondary: #101d2c;
+  --color-grey-light-1: #f9f7f6;
+  --color-grey-light-2: #aaa;
+  --color-grey-dark-1: #54483a;
+  --color-grey-dark-2: #6d5d4b;
+
+  --font-primary: "Nunito", sans-serif;
+  --font-display: "Josefin Sans", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: var(--font-primary);
+  color: var(--color-grey-dark-2);
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: 80vh min-content 40vw repeat(3, min-content);
+}
+
+.sidebar {
+  background-color: var(--color-primary);
+}
+
+.header {
+  background-color: var(--color-grey-dark-1);
+}
+
+.realtors {
+  background-color: var(--color-secondary);
+}
+
+.features {
+  background-color: var(--color-grey-light-2);
+}
+
+.story {
+}
+
+.story__pictures {
+  background-color: var(--color-primary);
+}
+
+.story__content {
+  background-color: var(--color-grey-light-1);
+}
+
+.homes {
+  background-color: var(--color-secondary);
+}
+
+.gallery {
+  background-color: var(--color-grey-dark-1);
+}
+
+.footer {
+  background-color: var(--color-secondary);
+}
